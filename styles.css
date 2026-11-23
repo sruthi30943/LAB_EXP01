@@ -4,7 +4,7 @@ body {
   margin: auto;
   padding: 1rem;
   line-height: 1.5;
-  color: #222;
+  color: #171616;
 }
 
 header {
@@ -23,7 +23,7 @@ nav a { color: #fff; margin-right: 1rem; }
 h2 { color: #730142; }
 
 article {
-  border: 1px solid #ccc;
+  border: 1px solid #af0b0b;
   padding: 0 1rem;
   margin-bottom: 1rem;
 }
