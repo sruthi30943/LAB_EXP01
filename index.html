@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <h1>Student Activity Portal</h1>
+    <nav aria-label="Main">
+      <a href="#events">Events</a>
+      <a href="#register">Register</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="events">
+      <h2>Upcoming Events</h2>
+      <article>
+        <h3>Tech Fest</h3>
+        <p>5 Dec 2026, Main Auditorium</p>
+      </article>
+      <article>
+        <h3>Cultural Night</h3>
+        <p>12 Dec 2026, Open Air Theatre</p>
+      </article>
+    </section>
+
+    <section id="register">
+      <h2>Student Registration</h2>
+      <form>
+        <label for="name">Full name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+
+        <label for="dept">Department</label>
+        <select id="dept">
+          <option>CSE</option>
+          <option>ECE</option>
+          <option>Mechanical</option>
+        </select>
+
+        <fieldset>
+          <label>Year</label>
+          <input type="radio" id="y1" name="year"><label for="y1">1st</label>
+          <input type="radio" id="y2" name="year"><label for="y2">2nd</label>
+          <input type="radio" id="y3" name="year"><label for="y3">3rd</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Events to attend</legend>
+          <input type="checkbox" id="e1"><label for="e1">Tech Fest</label>
+          <input type="checkbox" id="e2"><label for="e2">Cultural Night</label>
+        </fieldset>
+
+        <label for="msg">Comments</label>
+        <textarea id="msg" rows="3"></textarea>
+
+        <button type="submit">Register</button>
+      </form>
+    </section>
+  </main>
+
+  <aside>
+    <h2>Notice</h2>
+    <p>Registrations close 3 days before each event.</p>
+  </aside>
+
+  <footer>
+    <p>&copy; 2026 Student Affairs Office</p>
+  </footer>
+</body>
+</html>

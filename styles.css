@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+  line-height: 1.5;
+  color: #222;
+}
+
+header {
+  background: #750232;
+  color: #fff;
+  padding: 1rem;
+}
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+header h1 { margin: 0 0 0.5rem; }
+
+nav a { color: #fff; margin-right: 1rem; }
+
+h2 { color: #730142; }
+
+article {
+  border: 1px solid #ccc;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+label { display: block; margin-top: 0.8rem; }
+
+fieldset { margin-top: 1rem; }
+fieldset label { display: inline; margin-right: 1rem; }
+
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 0.4rem;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background: #7a1c14;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+aside {
+  background: #fff3cd;
+  padding: 0 1rem;
+  margin-top: 1rem;
+}
+article {
+  background: #fff;
+  border-left: 6px solid var(--accent);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+}
+article:hover { transform: translateY(-3px); }
+footer {
+  text-align: center;
+  margin-top: 1rem;
+  border-top: 1px solid #ccc;
+}
+
+:focus-visible { outline: 3px solid orange; }
