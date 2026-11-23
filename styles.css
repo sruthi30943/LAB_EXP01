@@ -30,7 +30,8 @@ article {
 
 label { display: block; margin-top: 0.8rem; }
 
-
+fieldset { margin-top: 1rem; }
+fieldset label { display: inline; margin-right: 1rem; }
 
 input[type=text], input[type=email], select, textarea {
   width: 100%;
